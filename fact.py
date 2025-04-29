@@ -1,4 +1,7 @@
+def fact(n):
+	if n==1:
+		return 1
+	else:
+		return(n*fact(n-1))
 n=5
-for i in range(1,n+1):
-	f*=i
-print(f)
+print(fact(n))
